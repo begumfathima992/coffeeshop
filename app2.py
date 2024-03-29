@@ -1,5 +1,5 @@
 # app.py
-from flask import Flask, render_template, request, redirect, url_for, flash, 
+from flask import Flask, render_template, request, redirect, url_for, flash 
 from flask_mysqldb import MySQL
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
