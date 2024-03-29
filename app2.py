@@ -1,7 +1,5 @@
 # app.py
-from flask import Flask, render_template, request, redirect, url_for, flash, send_file, jsonify
-#from flaskext.mysql import MySQL
-#from flask_mysql import MySQL
+from flask import Flask, render_template, request, redirect, url_for, flash, 
 from flask_mysqldb import MySQL
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
@@ -19,7 +17,7 @@ from flask import flash
 from flask import Response
 import hashlib
 from flask import send_file
-
+from flask import send_file, jsonify
 import smtplib
 
 
@@ -587,4 +585,4 @@ def visitor1():
 
 if __name__ == '__main__':
     #db.create_all()
-    app.run(debug=True, use_reloader=False)
+    app.run(debug=false, host="0.0.0.0")
