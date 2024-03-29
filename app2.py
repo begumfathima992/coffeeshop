@@ -583,6 +583,6 @@ def visitor():
 def visitor1():
     return render_template('visitor@.html')
 
-if __name__ == '__main__':
-    #db.create_all()
-    app.run(debug=false, host="0.0.0.0")
+# if __name__ == '__main__':
+#     #db.create_all()
+#     app.run(debug=false, host="0.0.0.0")
