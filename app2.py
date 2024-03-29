@@ -1,5 +1,5 @@
 # app.py
-from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import Flask, render_template, request, redirect, url_for, flash, send_file, jsonify
 #from flaskext.mysql import MySQL
 #from flask_mysql import MySQL
 from flask_mysqldb import MySQL
@@ -19,7 +19,7 @@ from flask import flash
 from flask import Response
 import hashlib
 from flask import send_file
-from flask import request, redirect, url_for, send_file, jsonify
+
 import smtplib
 
 
